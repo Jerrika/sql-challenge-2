@@ -10,9 +10,53 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "Local instance 3306",
-            "database": "mydb",
+            "database": "employeeTracker_db",
             "username": "root",
             "password": "Taylor4ME1",
+            "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Local instance 3306",
+            "database": "employeeTracker_db",
+            "username": "root",
+            "connectionTimeout": 30,
+            "password": "Taylor4ME1"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "Local Instance 3306",
+            "database": "employeeTracker_db",
+            "username": "root",
+            "connectionTimeout": 30,
+            "password": "Taylor4ME1"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Local instance 3360",
+            "database": "employeeTracker_db",
+            "username": "root",
             "connectionTimeout": 30
         }
     ]

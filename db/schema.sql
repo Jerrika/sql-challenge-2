@@ -1,11 +1,11 @@
--- Drop the database if it exists to start fresh
-DROP DATABASE IF EXISTS employeetracker_db;
+-- Drop the database if it eemployeeTracker_db"xists to start fresh
+DROP DATABASE IF EXISTS employeeTracker_db;
 
 -- Create the database
-CREATE DATABASE employeetracker_db;
+CREATE DATABASE employeeTracker_db;
 
 -- Switch to the newly created database
-USE employeetracker_db;
+USE employeeTracker_db;
 
 -- Create the departments table
 CREATE TABLE departments (

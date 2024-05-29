@@ -1,21 +1,7 @@
-# Devin Haynes: Employee Tracker 
+# Jerrika Gabriel: SQL Employee Tracker 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  
 ## Description:
 The interfaces allows non-developers to easily view and interact with information through the command-line of the application stored in an SQL Employee Tracker database. 
-
-## Table of Contents:
-- [Overview](#Overview)
-- [The Challenge](#The-Challenge)
-- [Usage Information](#Usage-Information)
-- [Installation Process](#Installation-Process)
-- [Built With](#Built-With)
-- [What I Learned](#What-I-Learned)
-- [Continued Development](#Continued-Development)
-- [License](#License)
-- [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
 
 # Overview
 
@@ -50,58 +36,12 @@ THEN I am prompted to enter the employee’s first name, last name, role, and ma
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
-## GIF.
-### Figure 1. GIF Command line interface
-
-
-## Usage Instructions
-1. Open the content management systems (CMS) 
-2. Open 'Intergrated Terminal' on 'server.js' and enter 'node server.js'
-3. Use the 'UP' and 'DOWN' arrow keys to navigate the command line. 
-4. Click 'enter' or 'return' on your respective choice.
-5. Follow all commad line prompts as directed until desired choice has been met.
-6. Additionally, for more in-depth instruction
 
 ## Repository Link:
-
+https://github.com/Jerrika/sql-challenge-2
 
 ## Walkthrough Video:
-https://www.loom.com/share/18dc9a6033754f40a60f2a502c550895?sid=1529343d-fc72-4f94-bfe2-3106a8f4529e
+
 
 ## Screenshots.
 ### Figure 1. Command line interface
-
-
-## Installation Process
-1. Clone or download the zip.folder of the repository: 
-2. Install the following: 
-- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- MySQL2: [Version 3.1.2](https://www.npmjs.com/package/mysql2)
-- Console.table: [Version 0.10.0](https://www.npmjs.com/package/console.table)
-3. Open the repository in any source code editor.
-4. Open the integrated terminal for the document and complete the respective installation guides provided above in section (2) to ensure the cloned documentation will operate.
-
-## Built With
-- Saiyan Pride
-- Dynamic JavaScript 
-- Cfonts: [Cfonts 3.1.1](https://www.npmjs.com/package/cfonts)
-- Inquirer.js: [Version 8.2.4](https://www.npmjs.com/package/inquirer/v/8.2.4)
-- MySQL2: [Version 3.1.2](https://www.npmjs.com/package/mysql2)
-- Console.table: [Version 0.10.0](https://www.npmjs.com/package/console.table)
-- License Badge: [Shields.io](https://shields.io/)
-- Visual Studio Code: [Website](https://code.visualstudio.com/)
-
-## What I Learned
-1. How to build a command-line application from scratch to manage an employee database, using Node.js, Inquirer, and MySQL.
-2. Creating a lengthly content management systems (CMS). 
-3. Create direct and coherent walkthrough video that demonstrates the interfaces functionality and acceptance criteria + BONUS acceptance criteria.
-
-
-### Continued Development:
-1. Create 'History'feature that records the date of when employess are 'Added' and 'Removed'.
-2. Adjust file/folder sorting, create several child folders for server.js file to better organize and seperate additional inquirer features.
-
-## License & Copyright ©
-  
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
-

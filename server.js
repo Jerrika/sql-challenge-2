@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "",
+    password: "Taylor4ME1",
     database: "employeeTracker_db",
 });
 
@@ -20,10 +20,10 @@ connection.connect((err) => {
 });
 
 // Function to start the application of CFONT 
-cfonts.say(' Devin Haynes \nSQL Employee Tracker', {
+cfonts.say('', {
 	font: 'block',              // define the font face
 	align: 'left',              // define text alignment
-	colors: ['blue'],         // define all colors
+	colors: ['black'],         // define all colors
 	background: 'transparent',  // define the background color, you can also use `backgroundColor` here as key
 	letterSpacing: 1,           // define letter spacing
 	lineHeight: 1,              // define the line height
@@ -35,7 +35,7 @@ cfonts.say(' Devin Haynes \nSQL Employee Tracker', {
 	env: 'node'                 // define the environment cfonts is being executed in
 });
 
-// Function to Start Thomas SQL Employee Tracker Application
+// Function to Start SQL Employee Tracker Application
 function start() {
     inquirer
         .prompt({
@@ -685,5 +685,3 @@ function viewTotalUtilizedBudgetOfDepartment() {
 process.on("exit", () => {
     connection.end();
 });
-// Thank you for viewing!
-// Thomas Calle 😊
