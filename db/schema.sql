@@ -1,11 +1,11 @@
 -- Drop the database if it eemployeeTracker_db"xists to start fresh
-DROP DATABASE IF EXISTS employeeTracker_db;
+DROP DATABASE IF EXISTS employeeTracker_DB;
 
 -- Create the database
-CREATE DATABASE employeeTracker_db;
+CREATE DATABASE employeeTracker_DB;
 
 -- Switch to the newly created database
-USE employeeTracker_db;
+USE employeeTracker_DB;
 
 -- Create the departments table
 CREATE TABLE departments (
@@ -23,12 +23,12 @@ CREATE TABLE roles (
 );
 
 -- Create the employees table
-CREATE TABLE employees (
+CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     first_name VARCHAR(30) NOT NULL,
     last_name VARCHAR(30) NOT NULL,
     role_id INT,
     manager_id INT,
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE SET NULL,
-    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL
+    FOREIGN KEY (manager_id) REFERENCES employee(id) ON DELETE SET NULL
 );
