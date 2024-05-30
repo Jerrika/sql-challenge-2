@@ -9,7 +9,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql-local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "password": "Taylor4ME1",
@@ -24,7 +24,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql-local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "connectionTimeout": 30,
@@ -39,7 +39,7 @@
             "server": "localhost",
             "port": 33060,
             "driver": "MySQL",
-            "name": "mysql-local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "connectionTimeout": 30,
@@ -54,7 +54,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql-local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "connectionTimeout": 30
@@ -68,7 +68,7 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql-local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "connectionTimeout": 30
@@ -82,10 +82,24 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "mysql local",
+            "name": "Local instance 3306",
             "database": "employeeTracker_DB",
             "username": "root",
             "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "local instance 3306",
+            "connectionTimeout": 30,
+            "database": "employeeTracker_DB",
+            "username": "root"
         }
     ]
 }

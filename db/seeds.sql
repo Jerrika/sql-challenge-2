@@ -26,13 +26,13 @@ VALUES
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-('Tom', 'Brady', 1, 1),
-('Thomas', 'The Tank Engine', 2, 2),
-('Thomas', 'Calle', 3, 3),
-('Thomas', 'Shelby', 4, 4),
-('Thomas', 'Hobbes', 5, 5),
-('Tom', 'Hanks', 6, 6),
-('Tom', 'Holland', 7, 7),
-('Tom', 'Ford', 8, 8),
-('Thomas', 'The Apostle', 9, 9),
-('Tom', 'Cruise', 10, 10);
+('John', 'Lee', 1, 1),
+('James', 'Bond', 2, 2),
+('Eddie', 'Kane', 3, 3),
+('Otis', 'Cross', 4, 4),
+('Mark', 'Williams', 5, 5),
+('Taylor', 'Smith', 6, 6),
+('Johnny', 'Ford', 7, 7),
+('Alex', 'Ridge', 8, 8),
+('Apple', 'Smith', 9, 9),
+('Malcom', 'Fox', 10, 10);
