@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
-const mysql = require("mysql2");
+const psql = require("pg");
 
-// create a MySQL connection
-const connection = mysql.createConnection({
+// create a mySQL connection
+const connection = postgres.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
@@ -35,10 +35,6 @@ function start() {
                 "Add an employee",
                 "Add a Manager",
                 "Update an employee role",
-                "View Employees by Manager",
-                "View Employees by Department",
-                "Delete Departments | Roles | Employees",
-                "View the total utilized budget of a department",
                 "Exit",
             ],
         })
@@ -67,18 +63,6 @@ function start() {
                     break;
                 case "Update an employee role":
                     updateEmployeeRole();
-                    break;
-                case "View Employees by Manager":
-                    viewEmployeesByManager();
-                    break;
-                case "View Employees by Department":
-                    viewEmployeesByDepartment();
-                    break;
-                case "Delete Departments | Roles | Employees":
-                    deleteDepartmentsRolesEmployees();
-                    break;
-                case "View the total utilized budget of a department":
-                    viewTotalUtilizedBudgetOfDepartment();
                     break;
                 case "Exit":
                     connection.end();
@@ -133,7 +117,7 @@ function addDepartment() {
         .prompt({
             type: "input",
             name: "name",
-            message: "Enter the name of the new department:",
+            message: "Enter the name of the new department:"
         })
         .then((answer) => {
             console.log(answer.name);
