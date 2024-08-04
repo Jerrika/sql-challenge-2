@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const psql = require("pg");
+const psql = require("PostgreSQL");
 
 // create a mySQL connection
 const connection = postgres.createConnection({
